@@ -24,11 +24,11 @@ class AppServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        $provedeniProjektiNav = Post::where('category_id', 2)->get();
+        /* $provedeniProjektiNav = Post::where('category_id', 2)->get();
         $projektiUprovedbiNav = Post::where('category_id', 3)->take(4)->get();
         $natjecaji = Post::where('category_id', 4)->get();
         view()->share(['projektiUprovedbiNav'=> $projektiUprovedbiNav,
                         'provedeniProjektiNav' => $provedeniProjektiNav,
-                         'natjecaji' => $natjecaji]);
+                         'natjecaji' => $natjecaji]); */
     }
 }
