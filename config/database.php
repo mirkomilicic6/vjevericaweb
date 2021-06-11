@@ -48,7 +48,7 @@ return [
             'url' => env('DATABASE_URL'),
             'host' => env('DB_HOST', 'eu-cdbr-west-01.cleardb.com'),
             'port' => env('DB_PORT', '3306'),
-            'database' => env('DB_DATABASE', 'mysql://b67509e578f296:b9a2ab23@eu-cdbr-west-01.cleardb.com/heroku_9380136419a43f8?reconnect=true'),
+            'database' => env('DB_DATABASE', 'heroku_9380136419a43f8'),
             'username' => env('DB_USERNAME', 'b67509e578f296'),
             'password' => env('DB_PASSWORD', 'b9a2ab23'),
             'unix_socket' => env('DB_SOCKET', ''),
